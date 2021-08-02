@@ -50,7 +50,7 @@ from youtubesearchpython.__future__ import VideosSearch
 
 try:
     import ffmpeg
-    from pytgcalls import GroupCall, GroupCallAction
+    from pytgcalls import GroupCall
 except ModuleNotFoundError:
     os.system("pip3 install -U pytgcalls ffmpeg-python")
     import ffmpeg
