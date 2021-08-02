@@ -54,7 +54,7 @@ try:
 except ModuleNotFoundError:
     os.system("pip3 install -U pytgcalls ffmpeg-python")
     import ffmpeg
-    from pytgcalls import GroupCall, GroupCallAction
+    from pytgcalls import GroupCall
 
 
 LOG = userge.getLogger(__name__)
